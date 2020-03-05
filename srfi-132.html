@@ -22,7 +22,7 @@ John Cowan (based on SRFI 32 by Olin Shivers)
 
 <h1>Status</h1>
 
-<p>This SRFI is currently in <em>final</em> status. Here is <a href="http://srfi.schemers.org/srfi-process.html">an explanation</a> of each status that a SRFI can hold.  To provide input on this SRFI, please send email to <code><a href="mailto:srfi+minus+132+at+srfi+dotschemers+dot+org">srfi-132@<span class="antispam">nospam</span>srfi.schemers.org</a></code>.  To subscribe to the list, follow <a href="http://srfi.schemers.org/srfi-list-subscribe.html">these instructions</a>.  You can access previous messages via the mailing list <a href="http://srfi-email.schemers.org/srfi-132">archive</a>.</p>
+<p>This SRFI is currently in <em>final</em> status. Here is <a href="https://srfi.schemers.org/srfi-process.html">an explanation</a> of each status that a SRFI can hold.  To provide input on this SRFI, please send email to <code><a href="mailto:srfi+minus+132+at+srfi+dotschemers+dot+org">srfi-132@<span class="antispam">nospam</span>srfi.schemers.org</a></code>.  To subscribe to the list, follow <a href="http://srfi.schemers.org/srfi-list-subscribe.html">these instructions</a>.  You can access previous messages via the mailing list <a href="https://srfi-email.schemers.org/srfi-132">archive</a>.</p>
 <ul>
   <li>Received: 2015-12-09</li>
   <li>60-day deadline: 2016-02-07</li>
@@ -51,7 +51,7 @@ None at present.
 
 <h2>100 SRFIs later...</h2>
 <p>
-This SRFI is based on <a href="http://srfi.schemers.org/srfi-32/srfi-32.txt">SRFI 32</a>
+This SRFI is based on <a href="https://srfi.schemers.org/srfi-32/srfi-32.txt">SRFI 32</a>
 by Olin Shivers, which was withdrawn twelve years ago.
 </p>
 <p>
@@ -71,7 +71,7 @@ As in R5RS and R7RS, procedures that return nothing of interest, and in SRFI 32 
 more unspecified values, are now specified to return one otherwise unspecified value.  The multiple
 packages, most with only a few procedures, into which SRFI 32 is divided have been consolidated.
 References to
-<a href="http://srfi.schemers.org/srfi-95/srfi-95.html">SRFI 95</a> and
+<a href="https://srfi.schemers.org/srfi-95/srfi-95.html">SRFI 95</a> and
 <a href="http://www.r6rs.org/final/html/r6rs-lib/r6rs-lib-Z-H-5.html#node_chap_4">R6RS</a> equivalents have been added.
 </p>
 
@@ -209,9 +209,9 @@ In the procedures specified below:
 </p>
 <ul><li>A <em>lis</em> parameter is a list.
 </li></ul><ul><li>A <em>v</em> parameter is a vector.
-</li></ul><ul><li>An <em>=</em> parameter is an equality predicate.  See <a href="http://srfi.schemers.org/srfi-128/srfi-128.html">SRFI 128</a> for the requirements on equality predicates.
+</li></ul><ul><li>An <em>=</em> parameter is an equality predicate.  See <a href="https://srfi.schemers.org/srfi-128/srfi-128.html">SRFI 128</a> for the requirements on equality predicates.
 Note that neither this SRFI nor its sample implementation depend on SRFI 128.
-</li></ul><ul><li>A <em>&lt;</em> parameter is an ordering predicate.  See <a href="http://srfi.schemers.org/srfi-128/srfi-128.html">SRFI 128</a> for the requirements on ordering predicates.
+</li></ul><ul><li>A <em>&lt;</em> parameter is an ordering predicate.  See <a href="https://srfi.schemers.org/srfi-128/srfi-128.html">SRFI 128</a> for the requirements on ordering predicates.
 </li></ul><ul><li>A <em>start</em> parameter or <em>start</em> and <em>end</em> parameter pair are exact non-negative integers such that 0 &lt;= <em>start</em> &lt;= <em>end</em> &lt;= <tt>(vector-length </tt><em>v</em><tt>)</tt>, where <em>v</em> is the related vector parameter. If not specified, they default to 0 and the length of the vector, respectively. They are interpreted to select the range [<em>start</em>, <em>end</em>), that is, all elements from index <em>start</em> (inclusive) up to, but not including, index <em>end</em>.
 </li></ul><p>
 Passing values to procedures with these parameters that do not satisfy these
@@ -390,7 +390,7 @@ vector is not otherwise disordered.
 <p>
 These procedures are linear time — much faster than the O(n<sup>2</sup>) general
 duplicate-element deletion procedures that do not assume any "bunching" of elements
-provided by <a href="http://srfi.schemers.org/srfi-1/srfi-1.html">SRFI 1</a>.
+provided by <a href="https://srfi.schemers.org/srfi-1/srfi-1.html">SRFI 1</a>.
 If you want to delete duplicate
 elements from a large list or vector, sort the elements to bring equal
 items together, then use one of these procedures, for a total time of
