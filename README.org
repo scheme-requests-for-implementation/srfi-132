@@ -1,6 +1,10 @@
 * SRFI 132: Sort Libraries
 
-** by John Cowan (based on SRFI 32 by Olin Shivers)
+** by John Cowan
+
+Based on SRFI 32 by Olin Shivers.
+
+
 
 This repository hosts [[https://srfi.schemers.org/srfi-132/][SRFI 132]]: Sort Libraries, a [[https://srfi.schemers.org/][Scheme Request for Implementation]].
 
