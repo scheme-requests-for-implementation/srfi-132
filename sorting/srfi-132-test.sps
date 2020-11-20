@@ -237,9 +237,6 @@
 	((= i end) new)
       (vector-set! new j (vector-ref vec i)))))
 
-(define (vector-copy vec)
-  (vector-portion-copy vec 0 (vector-length vec)))
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
 ;;; End of Olin's code.
