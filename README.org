@@ -8,6 +8,8 @@ Based on SRFI 32 by Olin Shivers.
 
 keywords: [[https://srfi.schemers.org/?keywords=algorithm][Algorithm]], [[https://srfi.schemers.org/?keywords=r7rs-large][R7RS Large]], [[https://srfi.schemers.org/?keywords=r7rs-large-red][R7RS Large: Red Edition]]
 
+library-name: sorting
+
 This repository hosts [[https://srfi.schemers.org/srfi-132/][SRFI 132]]: Sort Libraries, a [[https://srfi.schemers.org/][Scheme Request for Implementation]].
 
 This SRFI is in /final/ status.
